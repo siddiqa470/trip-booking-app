@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/abel"
+                    android:text="Hello! "
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/hi_logo"
+                    android:layout_toRightOf="@id/txt1"
+                    android:layout_alignBottom="@id/txt1"
+                    android:layout_marginLeft="5dp"
+                    />
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="350dp"
+                    android:src="@drawable/backperson"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="-90dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/baumans"
+                    android:text="Let's discover \nyour destination"
+                    android:textSize="35sp" />
+                <EditText
+                    android:id="@+id/search_txt"
+                    android:layout_width="330dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/txt2"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_search_button"
+                    android:drawableLeft="@drawable/searchbtn"
+                    android:hint="Serch Your place"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="-25dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Popular Categories"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!-- Second-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="90sp"
+                            android:layout_height="90sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="11dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/beachlogo1"
+                            app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="38dp"
+                            android:layout_marginTop="3dp"
+                            android:text="Beach"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="90dp"
+                            android:layout_height="90sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="11dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/snowlogo"
+                            app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginTop="3dp"
+                            android:text="SnowLand"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <!-- Third -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="90sp"
+                            android:layout_height="90sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="11dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/islandlogo1"
+                            app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="3dp"
+                            android:text="Island"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                    <!--FOUTH vIEW-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="90sp"
+                            android:layout_height="90sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="11dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/hilllogo1"
+                            app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginTop="3dp"
+                            android:text="Hill"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="90sp"
+                            android:layout_height="90sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="11dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/histlogo1"
+                            app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="22dp"
+                            android:layout_marginTop="3dp"
+                            android:text="Historical"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="10dp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Most Visited Places"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    />
+            </LinearLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        >
+                        <ImageView
+                            android:layout_width="370dp"
+                            android:layout_height="450dp"
+                            android:background="@drawable/custom_hsv_img"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Beach"
+                            android:textSize="20sp"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>

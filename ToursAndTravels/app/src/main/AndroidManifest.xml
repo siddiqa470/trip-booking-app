@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ToursAndTravels">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ToursAndTravels">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".IslandPage"
+            android:exported="false"/>
+
+        <activity android:name=".EagleBeach"
+            android:exported="false"/>
+
+        <activity android:name=".registration_page"
+            android:exported="false"/>
+
+        <activity android:name=".GulmargPage"
+            android:exported="false"/>
+
+        <activity android:name=".BeachPage"
+            android:exported="false"/>
+
+        <activity android:name=".HistoricalPage"
+            android:exported="false"/>
+
+        <activity android:name=".RockyMountain"
+            android:exported="false"/>
+
+        <activity android:name=".PhuketPage"
+            android:exported="false"/>
+
+        <activity android:name=".forbiddenCityPage"
+            android:exported="false"/>
+
+        <activity android:name=".machupicchuuHill"
+            android:exported="false"/>
+
+        <activity android:name=".statueofLibratyPage"
+            android:exported="false"/>
+
+        <activity android:name=".greatWallofChinaHeritage"
+            android:exported="false"/>
+
+        <activity android:name=".LangkawiPage"
+            android:exported="false"/>
+
+        <activity android:name=".eiffelTowerPage"
+            android:exported="false"/>
+
+        <activity android:name=".whiteHeavenBeach"
+            android:exported="false"/>
+
+        <activity android:name=".HillPage"
+            android:exported="false"/>
+
+        <activity android:name=".navagioBeach"
+            android:exported="false"/>
+
+        <activity android:name=".pyramidOfGaizaHeritage"
+            android:exported="false"/>
+
+        <activity android:name=".bookingsDetails"
+            android:exported="false"/>
+
+        <activity android:name=".cocoaBeach"
+            android:exported="false"/>
+
+        <activity android:name=".HomePage"
+            android:exported="false"/>
+
+        <activity android:name=".hallstattHill"
+            android:exported="false"/>
+
+        <activity android:name=".BoraBoraPage"
+            android:exported="false"/>
+
+        <activity android:name=".book_now2"
+            android:exported="false"/>
+
+        <activity android:name=".theColosseumPage"
+            android:exported="false"/>
+
+        <activity android:name=".grindelwaldHill"
+            android:exported="false"/>
+
+        <activity android:name=".IslasSecasPage"
+            android:exported="false"/>
+
+        <activity android:name=".tablemountainHill"
+            android:exported="false"/>
+
+        <activity android:name=".playaDelAmorBeach"
+            android:exported="false"/>
+
+        <activity android:name=".AccountPage"
+            android:exported="false"/>
+
+        <activity android:name=".ipanemaBeach"
+            android:exported="false"/>
+
+        <activity android:name=".BanffPage"
+            android:exported="false"/>
+
+        <activity android:name=".signInPage"
+            android:exported="false"/>
+
+        <activity android:name=".FirstPage"
+            android:exported="false"/>
+
+        <activity android:name=".SnowFallPage"
+            android:exported="false"/>
+
+        <activity android:name=".tajMahalHeritage"
+            android:exported="false"/>
+
+        <activity android:name=".ShirakawaPage"
+            android:exported="false"/>
+
+        <activity android:name=".BaliPage"
+            android:exported="false"/>
+
+        <activity android:name=".hogiSophiaHeritage"
+            android:exported="false"/>
+
+        <activity android:name=".mountFujiPage"
+            android:exported="false"/>
+
+        <activity android:name=".shimlaHill"
+            android:exported="false"/>
+
+        <activity android:name=".lpanemaBeach"
+            android:exported="false"/>
+
+        <activity android:name=".NanitalPage"
+            android:exported="false"/>
+
+        <activity android:name=".ProfilePage"
+            android:exported="false"/>
+
+        <activity android:name=".ankwotWatHeritage"
+            android:exported="false"/>
+
+        <activity android:name=".MainActivity2"
+            android:exported="false"/>
+
+        <activity android:name=".bookNow1"
+            android:exported="false"/>
+    </application>
+
+</manifest>

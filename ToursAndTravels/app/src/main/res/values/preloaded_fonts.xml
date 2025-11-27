@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abel</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/almendra_italic</item>
+        <item>@font/arizonia</item>
+        <item>@font/baumans</item>
+        <item>@font/belleza</item>
+        <item>@font/bellota_italic</item>
+        <item>@font/beth_ellen</item>
+        <item>@font/bree_serif</item>
+        <item>@font/calligraffitti</item>
+    </array>
+</resources>

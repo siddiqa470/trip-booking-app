@@ -1,4 +1,0 @@
-<resources>
-
-    <style name="Theme.ToursAndTravels" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
-</resources>
